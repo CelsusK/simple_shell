@@ -1,0 +1,47 @@
+
+.THE SHELL 1 "JULY 12, 2023" simple_shell "0x16"
+ "1.1" "C - simple_shell - man page"
+
+.sh name
+.b simple_shell \- basic shell command interpreter built in C 
+
+.SH SYNOPSIS
+$ /hsh [options] [file]
+
+.sh description
+Simple_Shell is a basic shell that prints a prompt, waits for user to enter the commands and prints what they entered on the next line
+Clone of sh
+
+.sh Return Value
+
+Always returns the status of the command executed before number means exit fail codes (0 means if no command is executed)
+
+.sh path
+
+looks in path environ variable for an  executable program file location.
+
+.sh 
+
+.b Invocation or recoursing
+.in +2n
+simple_shell can be recoursed both interactively and non-interactively.
+If recoursed with standard input not connected to a terminal, then it reads and execute received commands in a specific.
+
+If simple_shell is recoursed to standard input connected to a terminal then, an interactive shell is opened.
+When executing give and take, the simple_shell displays the prompt which is \"($) "\ when it is ready to read commands.
+
+.sh options
+.b simple_shell
+Command options will be typed after the main command followed by a space and a '-' symbol.
+
+.sh explained
+
+./hsh [command] [options]
+$ ls -l
+
+
+.sh bugs were not found
+
+.sh author
+Cassian KIRAGU
+STEVENS OMOLUSI
